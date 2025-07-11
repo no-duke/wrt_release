@@ -8,7 +8,7 @@ on:
         required: true
         description: Device Model
         type: choice
-        default: jdcloud_ipq60xx_immwrt
+        default: zn_m2_nowifi
         options:
           - aliyun_ap8220_immwrt
           - cmcc_rax3000m_immwrt
@@ -22,6 +22,7 @@ on:
           - redmi_ax6000_immwrt21
           - zn_m2_immwrt
           - zn_m2_libwrt
+          - zn_m2_nowifi
           - x64_immwrt
       runs-on:
         required: true
